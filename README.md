@@ -12,11 +12,11 @@ How to Use
 
     <description>数据源及动态数据源配置</description>
 
-    <!--
+    <!-- 读写分离数据源切面扫描 -->
     <context:component-scan base-package="com.plugin.datasource" />
-    读写分离数据源切面扫描
+
     <aop:aspectj-autoproxy/>
-   -->
+
 
     <!-- 基本数据源配置  -->
     <bean id="parentDataSource" class="com.alibaba.druid.pool.DruidDataSource"
