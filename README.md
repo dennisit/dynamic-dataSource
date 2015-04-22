@@ -1,4 +1,5 @@
 # dynamic-dataSource
+<<<<<<< HEAD
 
 How to Use
 
@@ -75,3 +76,6 @@ How to Use
     ...
 
 </beans>
+=======
+dynamic-dataSource
+>>>>>>> origin/master
